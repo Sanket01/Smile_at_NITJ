@@ -1,4 +1,4 @@
-#find out prime number
+#find out prime number IN PYTHON
 t=int(input("enter no. of cases"))
 while t>0:
     num=int(input("enter the no.: "))
