@@ -16,6 +16,7 @@ while t>0:
         print(num," is not a prime no.")
     t=t-1
 print("thank you")
+print("welcome to nitj")
 
     
     
