@@ -1,0 +1,21 @@
+#find out prime number
+t=int(input("enter no. of cases"))
+while t>0:
+    num=int(input("enter the no.: "))
+    i=1
+    flag=0
+    y=1+num//2
+    for i in range(2,y):
+        if num%i==0:
+            flag=1
+            break
+        i=i+1
+    if flag==0:
+        print(num," is prime no.")
+    else:
+        print(num," is not a prime no.")
+    t=t-1
+print("thank you")
+
+    
+    
